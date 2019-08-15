@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.myform {
+  margin-top: 200px;
+  max-width: 500px;
+  width: 100%;
+  margin: 200px auto 0px;
+  padding: 50px;
+  border: solid 1px black;
+}
+
+.myApp-logo {
+  width: 80px;
+}
+
+.myCircle {
+  border-radius: 50%;
+  border: solid 1px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.circle-container {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.profilePhoto {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.profilePhoto:hover{
+  opacity: 0.5;
+}
